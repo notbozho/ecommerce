@@ -19,17 +19,17 @@
     ],
     "rules": {
         "indent": [
-            "error",
+            "warn",
             4,
             { "SwitchCase": 1 }
         ],
         "no-unused-vars": "off",
         "quotes": [
-            "error",
+            "warn",
             "double"
         ],
         "semi": [
-            "error",
+            "warn",
             "always"
         ]
     }
