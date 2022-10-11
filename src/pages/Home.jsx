@@ -1,11 +1,19 @@
 import React from "react";
-import Footer from "../components/Footer";
+import { Layout } from "antd";
+
+const { Header, Content, Footer } = Layout;
 
 function Home() {
-    return (
-        <div>
-        </div>
-    );
+  return (
+    <Layout>
+      <Header>
+        <h1>hi</h1>
+      </Header>
+      <Content>
+        <h1>hello v2</h1>
+      </Content>
+    </Layout>
+  );
 }
 
 export default Home;
