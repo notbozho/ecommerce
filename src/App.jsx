@@ -10,16 +10,15 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
 function App() {
-    return (
-        <>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={Home} />
-                <Route path="/home" element={Home} />
-            </Routes>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+
+    </>
+  );
 }
 
 export default App;

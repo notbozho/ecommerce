@@ -1,18 +1,18 @@
 import React from "react";
-import { Layout } from "antd";
 
-const { Header, Content, Footer } = Layout;
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+import { Button } from "react-bootstrap";
 
 function Home() {
   return (
-    <Layout>
-      <Header>
-        <h1>hi</h1>
-      </Header>
-      <Content>
-        <h1>hello v2</h1>
-      </Content>
-    </Layout>
+    <>    
+      <h1>HOME</h1>
+      <Button color="primary">
+        hi
+      </Button>
+    </>
   );
 }
 
