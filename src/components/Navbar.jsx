@@ -1,16 +1,12 @@
 import React from "react";
+import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
 
 function Navbar() {
-<<<<<<< Updated upstream
   return (
-    <h1>asd</h1>
+    <>
+      <h1>Navbar</h1>
+    </>
   );
-=======
-    return (
-        <div className="navbar">
-        </div>
-    );
->>>>>>> Stashed changes
 }
 
 export default Navbar;

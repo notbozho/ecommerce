@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/home" element={<Home />} />
