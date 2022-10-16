@@ -1,38 +1,38 @@
 [
-    {
-        "id": "001",
-        "name" : "Smartphone Apple iPhone 14, 128GB, 5G, Blue",
-        "image" : "https://s13emagst.akamaized.net/products/48592/48591196/images/res_4fe7d2a075236c7c332d2c663bf09c26.jpg?width=450&height=450&hash=A4F12958A03F0C2C887DE178D5B9B9CF",
-        "price" : "1999$",
-        "description" : "", 
-        "stars" : "8/10",
-        "category product" : "smartphones"
-    },
-    {
-        "id": "002",
-        "name" : "Dryer Bosch WTH85203BY, Heat pump, 8 kg, Class A++, Condensation, 15 programs",
-        "image" : "https://s13emagst.akamaized.net/products/32369/32368991/images/res_f57a1b335367261b61e4b2f9d8eeb153.jpg?width=450&height=450&hash=DE132242A2D370FADF86FE9D5BE9BD14",
-        "price" : "1129$",
-        "description" : "", 
-        "stars" : "7/10",
-        "category product" : "electric appliances"
-    },
-    {
-        "id": "003",
-        "name" : "Console Sony Playstation 4 SLIM, 500 GB, Black",
-        "image" : "https://s13emagst.akamaized.net/products/4152/4151785/images/res_f7edf2e40f22326abc00920ddb0fd2f0.jpg?width=450&height=450&hash=71F1478C758CA2A5D6189F81C8192849",
-        "price" : "1145$",
-        "description" : "", 
-        "stars" : "8.5/10",
-        "category product" : "gaming"
-    },
-    {
-        "id": "004",
-        "name" : "Monitor Gaming Huawei Mateview GT 34''",
-        "image" : "https://s13emagst.akamaized.net/products/41661/41660415/images/res_0b93d8bd3c44c6ba089a636a771b736f.jpg?width=450&height=450&hash=4AA136D78A773D29044B70240E9DD73D",
-        "price" : "900$",
-        "description" : "", 
-        "stars" : "8/10",
-        "category product" : "gaming"
-    }
+  {
+    "id": "001",
+    "name": "Smartphone Apple iPhone 14, 128GB, 5G, Blue",
+    "image": "https://s13emagst.akamaized.net/products/48592/48591196/images/res_4fe7d2a075236c7c332d2c663bf09c26.jpg?width=450&height=450&hash=A4F12958A03F0C2C887DE178D5B9B9CF",
+    "price": "1999$",
+    "description": "",
+    "stars": "8/10",
+    "category product": "smartphones"
+  },
+  {
+    "id": "002",
+    "name": "Dryer Bosch WTH85203BY, Heat pump, 8 kg, Class A++, Condensation, 15 programs",
+    "image": "https://s13emagst.akamaized.net/products/32369/32368991/images/res_f57a1b335367261b61e4b2f9d8eeb153.jpg?width=450&height=450&hash=DE132242A2D370FADF86FE9D5BE9BD14",
+    "price": "1129$",
+    "description": "",
+    "stars": "7/10",
+    "category product": "electric appliances"
+  },
+  {
+    "id": "003",
+    "name": "Console Sony Playstation 4 SLIM, 500 GB, Black",
+    "image": "https://s13emagst.akamaized.net/products/4152/4151785/images/res_f7edf2e40f22326abc00920ddb0fd2f0.jpg?width=450&height=450&hash=71F1478C758CA2A5D6189F81C8192849",
+    "price": "1145$",
+    "description": "",
+    "stars": "8.5/10",
+    "category product": "gaming"
+  },
+  {
+    "id": "004",
+    "name": "Monitor Gaming Huawei Mateview GT 34''",
+    "image": "https://s13emagst.akamaized.net/products/41661/41660415/images/res_0b93d8bd3c44c6ba089a636a771b736f.jpg?width=450&height=450&hash=4AA136D78A773D29044B70240E9DD73D",
+    "price": "900$",
+    "description": "",
+    "stars": "8/10",
+    "category product": "gaming"
+  }
 ]
