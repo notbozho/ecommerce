@@ -9,7 +9,7 @@ import InputBase from "@mui/material/InputBase";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
-import Icon from "../../public/assets/icon.png";
+import Icon from "../assets/icon.png";
 
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
