@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Products from "../components/Products";
+import ProductsData from "../../data/products.json";
+import HeroBanner from "../components/HeroBanner";
 
 function Home() {
-  return <div>Home</div>;
+  // const [productsData, setProductsData] = useState([]);
+
+  // useEffect(() => {
+  //   setProductsData(ProductsData);
+  // }, []);
+
+  return (
+    <>
+      <HeroBanner />
+      {/* <Products productsData={productsData} /> */}
+    </>
+  );
 }
 
 export default Home;
