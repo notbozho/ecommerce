@@ -1,22 +1,27 @@
 [
   {
     "id": "001",
-    "name": "smartphones"
+    "name": "smartphones",
+    "image": "https://phonesdata.com/files/models/Apple-iPhone-14-Pro-Max-656.jpg"
   },
   {
     "id": "002",
-    "name": "electric appliances"
+    "name": "electric appliances",
+    "image": "https://kitchenaid-h.assetsadobe.com/is/image/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/gas-vs-electric-dryers/gas-vs-electric-dryers_1.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1"
   },
   {
     "id": "003",
-    "name": "fashion"
+    "name": "fashion",
+    "image": "https://www.oberlo.com/media/1603955896-clothing-accessories-flatlay-1.jpg"
   },
   {
     "id": "004",
-    "name": "sports"
+    "name": "sports",
+    "image": "https://uploads-ssl.webflow.com/617b224ba2374548fcc039ba/617b224ba237453ce1c0409b_hpfulq-1234-1024x512.jpg"
   },
   {
     "id": "005",
-    "name": "gaming"
+    "name": "gaming",
+    "image": "https://media.wired.com/photos/627da1085d49787abdf713b4/master/pass/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.jpg"
   }
 ]
