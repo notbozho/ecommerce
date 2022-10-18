@@ -16,9 +16,8 @@ function HeroBanner() {
   };
 
   return (
-    <Carousel
-    >
-      {carousalData.map(item => (
+    <Carousel>
+      {carousalData.map((item) => (
         <HeroBannerItem key={item.id} name={item.name} imageUrl={item.image} />
       ))}
     </Carousel>

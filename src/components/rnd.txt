@@ -1,0 +1,96 @@
+import React, { useState, useEffect } from "react";
+
+import Products from "../components/Products";
+import ProductsData from "../../data/products.json";
+import HeroBanner from "../components/HeroBanner";
+
+function Home() {
+
+  // category: "",
+  // data: {
+  //  ...
+  // },
+
+  const poductsTemplate = {
+    "smartphones": {
+      data: [],
+    },
+    "electric appliances": {
+      data: [],
+    },
+    "fashion": {
+      data: [],
+    },
+    "sports": {
+      data: [],
+    },
+    "gaming": {
+      data: [],
+    },
+  };
+
+  const [products, setProducts] = useState({});
+
+  const smartPhonesKeyWord = "smartphones";
+  const electricAppliancesKeyWord = "electric appliances";
+  const fashionKeyWord = "fashion";
+  const sportsKeyWord = "sports";
+  const gamingKeyWord = "gaming";
+
+  useEffect(() => {
+    const setDataForProducts = () => {
+      ProductsData.forEach(product => {
+        if (product["category"].toLowerCase().includes(smartPhonesKeyWord)) {
+          poductsTemplate["smartphones"].data.push(product);
+        }
+        if (
+          product["category"].toLowerCase().includes(electricAppliancesKeyWord)
+        ) {
+          poductsTemplate["electric appliances"].data.push(product);
+        }
+        if (product["category"].toLowerCase().includes(fashionKeyWord)) {
+          poductsTemplate["fashion"].data.push(product);
+        }
+        if (product["category"].toLowerCase().includes(sportsKeyWord)) {
+          poductsTemplate["sports"].data.push(product);
+        }
+        if (product["category"].toLowerCase().includes(gamingKeyWord)) {
+          poductsTemplate["gaming"].data.push(product);
+        }
+      });
+
+      setProducts(poductsTemplate);
+    };
+
+    setDataForProducts();
+  }, []);
+
+  return (
+    <>
+      <HeroBanner />
+      {smartphonesProducts.length != 0 && (
+        <Products
+          category={smartPhonesKeyWord}
+          productsData={smartphonesProducts}
+        />
+      )}
+      {electricAppliancesProducts.length != 0 && (
+        <Products
+          category={electricAppliancesKeyWord}
+          productsData={electricAppliancesProducts}
+        />
+      )}
+      {fashionProducts.length != 0 && (
+        <Products category={fashionKeyWord} productsData={fashionProducts} />
+      )}
+      {sportsProducts.length != 0 && (
+        <Products category={sportsKeyWord} productsData={sportsProducts} />
+      )}
+      {gamingProducts.length != 0 && (
+        <Products category={gamingKeyWord} productsData={gamingProducts} />
+      )}
+    </>
+  );
+}
+
+export default Home;
